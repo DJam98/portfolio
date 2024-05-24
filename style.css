@@ -1,3 +1,13 @@
-main{
+html{
     background-color: whitesmoke;
+    color: black;
+}
+
+.navSocial{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-color: white;
+    border-width: 5px;
+    border-style: double;
 }
