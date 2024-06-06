@@ -51,6 +51,7 @@ section{
   width: 70%;
   margin-left: 15%;
   display: flex;
+  gap: 20px;
 }
 
 aside{
