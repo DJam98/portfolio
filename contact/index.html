@@ -16,12 +16,24 @@
 
     <title>James Dawson</title>
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script>
+
   </head>
 
     <body>
         <p><span class="highlight">Contact Me</span></p>
         <p>Get in contact with me at <a href="mailto:hello@jdawson.au"><span class="link">hello@jdawson.au</span></a><br><br>
         Or check out my socials <a href="https://instagram.com/jdawsondesign"><span class="link">@jdawsondesign</span></a> (Instagram), <a class="www.linkedin.com/in/jdawsonau"><span class="link">@jdawsonau</span></a> (LinkedIn), <a href="https://github.com/DJam98"><span class="link">@DJam98</span></a> (GitHub), <a href="https://x.com/DJam987"><span class="link">@DJam987</span></a> (Twitter), <a href="https://twitch.tv/djam98"><span class="link">@DJam98</span></a> (Twitch)
+        <button class="g-recaptcha" 
+        data-sitekey="6LdG8_IpAAAAAAHFdLcWNmN2mb-oZAXKDXeYDmkp" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
         <p><a href="/index.html"><span class="link">Go Back</span></a></p>
     </body>
   </html>
