@@ -57,12 +57,14 @@ section{
 aside{
   width: 60%;
   padding-top: 25px;
+  order: 1;
 }
 
 article{
   width: 40%;
   padding-left: 20px;
   padding-right: 10%;
+  order: 2;
 }
 
 h2{
@@ -152,3 +154,39 @@ img{
     font-style: italic;
   }
   
+  @media screen and (max-width: 1000px) {
+
+    p{
+      font-size: 2rem;
+    }
+
+    .link{
+      font-weight: 900;
+    }
+
+    .highlight{
+      font-weight: 900;
+    }
+
+    section{
+      flex-direction: column;
+      gap: 0;
+    }
+
+    main{
+      gap: 5vh;
+    }
+
+    aside{
+      width: 100%;
+      padding: 0 0 0 0;
+      order: 2;
+    }
+
+    article{
+      width: 100%;
+      padding: 0 0 0 0;
+      order: 1;
+    }
+
+  }
